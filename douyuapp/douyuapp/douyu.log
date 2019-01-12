@@ -1,0 +1,136 @@
+2018-10-29 22:08:45 [scrapy.core.scraper] ERROR: Error processing {'img_url': 'https://rpic.douyucdn.cn/live-cover/roomCover/2018/10/03/ffce66f8f75c391dcfc8397a7c16bca3_small.png',
+ 'nickname': '林cute',
+ 'room_name': '不划水好不好'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/ywx/PycharmProjects/untitled/douyuapp/douyuapp/pipelines.py", line 32, in item_completed
+    os.rename(IMAGES_STORE + '/' + image_path[0], IMAGES_STORE + '/' + item['nickname'] + '.jpg')
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ywx/PycharmProjects/untitled/douyuapp/images/full/a1a2d0dd670c676690b0bdca5525f75529c32186.jpg' -> '/Users/ywx/PycharmProjects/untitled/douyuapp/images/林cute.jpg'
+2018-10-29 22:08:45 [scrapy.core.scraper] ERROR: Error processing {'img_url': 'https://rpic.douyucdn.cn/asrpic/181029/5564524_2201.jpg/dy1',
+ 'nickname': '小蜜桃很甜',
+ 'room_name': '月底冲鸭 路过大哥抬一手拜托拜托！！'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/ywx/PycharmProjects/untitled/douyuapp/douyuapp/pipelines.py", line 32, in item_completed
+    os.rename(IMAGES_STORE + '/' + image_path[0], IMAGES_STORE + '/' + item['nickname'] + '.jpg')
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ywx/PycharmProjects/untitled/douyuapp/images/full/e6704c29ca5705617197923944e2b822ce85f4e7.jpg' -> '/Users/ywx/PycharmProjects/untitled/douyuapp/images/小蜜桃很甜.jpg'
+2018-10-29 22:08:46 [scrapy.core.scraper] ERROR: Error processing {'img_url': 'https://rpic.douyucdn.cn/live-cover/appCovers/2018/10/18/5303763_20181018043659_big.jpg',
+ 'nickname': '小北熙ya',
+ 'room_name': '飞机周星 冲冲冲。。。'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/ywx/PycharmProjects/untitled/douyuapp/douyuapp/pipelines.py", line 32, in item_completed
+    os.rename(IMAGES_STORE + '/' + image_path[0], IMAGES_STORE + '/' + item['nickname'] + '.jpg')
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ywx/PycharmProjects/untitled/douyuapp/images/full/221b7334717a36d943e2df82321f3fc706e3480a.jpg' -> '/Users/ywx/PycharmProjects/untitled/douyuapp/images/小北熙ya.jpg'
+2018-10-29 22:08:48 [scrapy.core.scraper] ERROR: Error processing {'img_url': 'https://rpic.douyucdn.cn/live-cover/appCovers/2018/10/29/5333899_20181029065438_big.jpg',
+ 'nickname': '凌A公子',
+ 'room_name': '25级 ！！ 大哥抬一手～'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/ywx/PycharmProjects/untitled/douyuapp/douyuapp/pipelines.py", line 32, in item_completed
+    os.rename(IMAGES_STORE + '/' + image_path[0], IMAGES_STORE + '/' + item['nickname'] + '.jpg')
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ywx/PycharmProjects/untitled/douyuapp/images/full/66b8514cef9e6be9114f3121076f7de6ae482c58.jpg' -> '/Users/ywx/PycharmProjects/untitled/douyuapp/images/凌A公子.jpg'
+2018-10-29 22:08:55 [scrapy.core.scraper] ERROR: Error processing {'img_url': 'https://rpic.douyucdn.cn/live-cover/appCovers/2018/09/24/5003072_20180924105503_big.jpg',
+ 'nickname': '一顾人间如尘',
+ 'room_name': '慢慢走啊，去过好过的人生。'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/ywx/PycharmProjects/untitled/douyuapp/douyuapp/pipelines.py", line 32, in item_completed
+    os.rename(IMAGES_STORE + '/' + image_path[0], IMAGES_STORE + '/' + item['nickname'] + '.jpg')
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ywx/PycharmProjects/untitled/douyuapp/images/full/122a201f9d8135ea47a509148799af5e4e792910.jpg' -> '/Users/ywx/PycharmProjects/untitled/douyuapp/images/一顾人间如尘.jpg'
+2018-10-29 22:08:58 [scrapy.core.scraper] ERROR: Error processing {'img_url': 'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/25/5543925_20180825152329_big.jpg',
+ 'nickname': '牛宝宝222',
+ 'room_name': '做牙套妹的第二天'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/ywx/PycharmProjects/untitled/douyuapp/douyuapp/pipelines.py", line 32, in item_completed
+    os.rename(IMAGES_STORE + '/' + image_path[0], IMAGES_STORE + '/' + item['nickname'] + '.jpg')
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ywx/PycharmProjects/untitled/douyuapp/images/full/571e41b689c65060a9cb8c82a64d02741d07f8d4.jpg' -> '/Users/ywx/PycharmProjects/untitled/douyuapp/images/牛宝宝222.jpg'
+2018-10-29 22:09:04 [scrapy.core.scraper] ERROR: Error processing {'img_url': 'https://rpic.douyucdn.cn/live-cover/appCovers/2018/10/07/5749324_20181007111458_big.jpg',
+ 'nickname': '嘉敏bbb',
+ 'room_name': '嘉敏bbb的直播间'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/ywx/PycharmProjects/untitled/douyuapp/douyuapp/pipelines.py", line 32, in item_completed
+    os.rename(IMAGES_STORE + '/' + image_path[0], IMAGES_STORE + '/' + item['nickname'] + '.jpg')
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ywx/PycharmProjects/untitled/douyuapp/images/full/20d0db0ad9103f71ce7a6d1a5c847c215d59efa7.jpg' -> '/Users/ywx/PycharmProjects/untitled/douyuapp/images/嘉敏bbb.jpg'
+2018-10-29 22:09:15 [scrapy.core.scraper] ERROR: Error processing {'img_url': 'https://rpic.douyucdn.cn/live-cover/appCovers/2018/10/27/5850994_20181027231947_big.jpg',
+ 'nickname': '三鹿小姐',
+ 'room_name': '嘿嘿嘿，我的小可爱 5850994'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/ywx/PycharmProjects/untitled/douyuapp/douyuapp/pipelines.py", line 32, in item_completed
+    os.rename(IMAGES_STORE + '/' + image_path[0], IMAGES_STORE + '/' + item['nickname'] + '.jpg')
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ywx/PycharmProjects/untitled/douyuapp/images/full/9a6ddeaa895e8c65a9798742efbdf6b778ce9f70.jpg' -> '/Users/ywx/PycharmProjects/untitled/douyuapp/images/三鹿小姐.jpg'
+2018-10-29 22:09:33 [scrapy.core.scraper] ERROR: Error processing {'img_url': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'nickname': '片皇的小迷弟',
+ 'room_name': '片皇的小迷弟的直播间'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/ywx/PycharmProjects/untitled/douyuapp/douyuapp/pipelines.py", line 32, in item_completed
+    os.rename(IMAGES_STORE + '/' + image_path[0], IMAGES_STORE + '/' + item['nickname'] + '.jpg')
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ywx/PycharmProjects/untitled/douyuapp/images/full/2bac4cf518d9c0135d68ba0e3156c0d2e763cea6.jpg' -> '/Users/ywx/PycharmProjects/untitled/douyuapp/images/片皇的小迷弟.jpg'
+2018-10-29 22:09:33 [scrapy.pipelines.files] WARNING: File (code: 301): Error downloading file from <GET https://rpic.douyucdn.cn/acrpic/170930/1020073_v0007.jpg> referred in <None>
+2018-10-29 22:09:33 [scrapy.core.scraper] ERROR: Error processing {'img_url': 'https://rpic.douyucdn.cn/acrpic/170930/1020073_v0007.jpg',
+ 'nickname': 'ClearLove1874',
+ 'room_name': '成都一日游 1020073'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/ywx/PycharmProjects/untitled/douyuapp/douyuapp/pipelines.py", line 32, in item_completed
+    os.rename(IMAGES_STORE + '/' + image_path[0], IMAGES_STORE + '/' + item['nickname'] + '.jpg')
+IndexError: list index out of range
+2018-10-29 22:09:33 [scrapy.core.scraper] ERROR: Error processing {'img_url': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'nickname': '山已几aa',
+ 'room_name': '山已几aa的直播间'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/ywx/PycharmProjects/untitled/douyuapp/douyuapp/pipelines.py", line 32, in item_completed
+    os.rename(IMAGES_STORE + '/' + image_path[0], IMAGES_STORE + '/' + item['nickname'] + '.jpg')
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ywx/PycharmProjects/untitled/douyuapp/images/full/2bac4cf518d9c0135d68ba0e3156c0d2e763cea6.jpg' -> '/Users/ywx/PycharmProjects/untitled/douyuapp/images/山已几aa.jpg'
+2018-10-29 22:09:33 [scrapy.core.scraper] ERROR: Error processing {'img_url': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'nickname': 'DannieWang53718',
+ 'room_name': 'DannieWang53718的直播间'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/ywx/PycharmProjects/untitled/douyuapp/douyuapp/pipelines.py", line 32, in item_completed
+    os.rename(IMAGES_STORE + '/' + image_path[0], IMAGES_STORE + '/' + item['nickname'] + '.jpg')
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ywx/PycharmProjects/untitled/douyuapp/images/full/2bac4cf518d9c0135d68ba0e3156c0d2e763cea6.jpg' -> '/Users/ywx/PycharmProjects/untitled/douyuapp/images/DannieWang53718.jpg'
+2018-10-29 22:09:33 [scrapy.core.scraper] ERROR: Error processing {'img_url': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'nickname': '山支大哥yo',
+ 'room_name': '用户07089740的直播间'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/ywx/PycharmProjects/untitled/douyuapp/douyuapp/pipelines.py", line 32, in item_completed
+    os.rename(IMAGES_STORE + '/' + image_path[0], IMAGES_STORE + '/' + item['nickname'] + '.jpg')
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ywx/PycharmProjects/untitled/douyuapp/images/full/2bac4cf518d9c0135d68ba0e3156c0d2e763cea6.jpg' -> '/Users/ywx/PycharmProjects/untitled/douyuapp/images/山支大哥yo.jpg'
+2018-10-29 22:09:33 [scrapy.core.scraper] ERROR: Error processing {'img_url': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'nickname': '你的小雨er',
+ 'room_name': '你的小雨er的直播间'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/ywx/PycharmProjects/untitled/douyuapp/douyuapp/pipelines.py", line 32, in item_completed
+    os.rename(IMAGES_STORE + '/' + image_path[0], IMAGES_STORE + '/' + item['nickname'] + '.jpg')
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ywx/PycharmProjects/untitled/douyuapp/images/full/2bac4cf518d9c0135d68ba0e3156c0d2e763cea6.jpg' -> '/Users/ywx/PycharmProjects/untitled/douyuapp/images/你的小雨er.jpg'
+2018-10-29 22:09:33 [scrapy.core.scraper] ERROR: Error processing {'img_url': 'https://staticlive.douyucdn.cn/upload/web_pic/default2_thumb.jpg',
+ 'nickname': '佳加佳i',
+ 'room_name': '佳加佳i的直播间'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/ywx/PycharmProjects/untitled/douyuapp/douyuapp/pipelines.py", line 32, in item_completed
+    os.rename(IMAGES_STORE + '/' + image_path[0], IMAGES_STORE + '/' + item['nickname'] + '.jpg')
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/ywx/PycharmProjects/untitled/douyuapp/images/full/2bac4cf518d9c0135d68ba0e3156c0d2e763cea6.jpg' -> '/Users/ywx/PycharmProjects/untitled/douyuapp/images/佳加佳i.jpg'
